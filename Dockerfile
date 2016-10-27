@@ -1,5 +1,5 @@
 # Pull base image.
-FROM leios76/nginx-volume
+FROM leios76/nginx-volume:1.4.6-1
 
 COPY files/init.sh /init.sh
 
